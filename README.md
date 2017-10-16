@@ -7,7 +7,7 @@ A General Iterative Shrinkage and Thresholding Algorithm for Non-convex Regulari
 
 Run main.m directly and you will see the comparison between popular methods and this implementation.
 
-The Randon transform code and back projection code are written by Mark Bangert.
+The Randon transform code and back projection to DFT code are written by Mark Bangert.
 
 ![Sample Image](https://github.com/EvanZhuang/MRI-Reconstruction-with-Sparse-Optimization/blob/master/4v4.jpg)
 
