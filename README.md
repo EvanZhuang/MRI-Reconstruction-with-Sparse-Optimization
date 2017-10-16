@@ -9,4 +9,6 @@ Run main.m directly and you will see the comparison between popular methods and 
 
 The Randon transform code and back projection code are written by Mark Bangert.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Sample Image](https://github.com/EvanZhuang/MRI-Reconstruction-with-Sparse-Optimization/blob/master/4v4.jpg)
+
+The solvers are also incuded in the solver folder, select the one you need. GIST_MCP.m used proximal gradient method with BB step size, GIST_MCP_Nesterov.m used proximal gradient method with Nesterov acceleration. Remember to put the corresponding subroutine with the solver.
