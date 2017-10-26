@@ -11,4 +11,8 @@ The Randon transform code and back projection to DFT code are written by Mark Ba
 
 ![Sample Image](https://github.com/EvanZhuang/MRI-Reconstruction-with-Sparse-Optimization/blob/master/4Compare.jpg)
 
-The solvers are also incuded in the solver folder, select the one you need. GIST_MCP.m used proximal gradient method with BB step size, GIST_MCP_Nesterov.m used proximal gradient method with Nesterov acceleration. Remember to put the corresponding subroutine with the solver.
+The solvers are also incuded in the solver folder, select the one you need. GIST_MCP.m used proximal gradient method with Barzilai-Borwein step size, GIST_MCP_Nesterov.m used proximal gradient method with Nesterov acceleration. Remember to put the corresponding subroutine with the solver.
+
+There is detailed explanation of the Nesterov accelerated proximal gradient algorithm with restart that truly guarantees convergence, here:
+
+Linear Convergence of Proximal Gradient Algorithm with Extrapolation for a Class of Nonconvex Nonsmooth Minimization Problems by Bo Wen, Xiaojun Chen, Ting Kei Pong https://arxiv.org/pdf/1512.09302.pdf
