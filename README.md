@@ -16,3 +16,5 @@ The solvers are also incuded in the solver folder, select the one you need. GIST
 There is detailed explanation of the Nesterov accelerated proximal gradient algorithm with restart that truly guarantees convergence, here:
 
 Linear Convergence of Proximal Gradient Algorithm with Extrapolation for a Class of Nonconvex Nonsmooth Minimization Problems by Bo Wen, Xiaojun Chen, Ting Kei Pong https://arxiv.org/pdf/1512.09302.pdf
+
+This study was carried out in Spring 2017, funded partly by Hong Kong Research Grants Council award PolyU253008/15
